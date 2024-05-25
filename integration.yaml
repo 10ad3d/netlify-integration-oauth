@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://sdk.netlify.com/sdk/config-schema.json
+config:
+  slug: netlify-integration-oauth
+  name: netlify-integration-oauth
+  description: Test OAuth 
+  integrationLevel: team-and-site
+  scopes:
+    site: ["read", "write"]
+    user: ["read", "write"]
+    env: ["read", "write"]
